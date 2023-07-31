@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>testBtn</class>
+ <widget class="QMainWindow" name="testBtn">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>60</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>391</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>STEP 1: 분석할 웹사이트를 열어 주세요.</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>60</y>
+      <width>381</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>분석할 웹 사이트 주소</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>190</y>
+      <width>391</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>STEP 2: 카메라에 내 얼굴을 맞춘 후, 눈동자 측정 설정을 시작해 주세요.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>180</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>측정 시작</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>testBtn</receiver>
+   <slot>Web_go()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>494</x>
+     <y>99</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>482</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>Web_go()</slot>
+ </slots>
+</ui>

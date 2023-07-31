@@ -1,0 +1,6 @@
+<RCC>
+  <qresource lang="python" prefix="newPrefix">
+    <file>example.py</file>
+    <file>example.py</file>
+  </qresource>
+</RCC>
